@@ -1,0 +1,28 @@
+*{
+  background-color: #F7F6BB;
+}
+.App {
+  display: flex; /* Use flexbox layout */
+  justify-content: center; /* Center align items horizontally */
+  align-items: center; /* Center align items vertically */
+  height: 100vh; /* Make the container take up the full viewport height */
+}
+
+.container {
+  display: flex; /* Use flexbox layout for child elements */
+  width: 100%; /* Make the container take up the full width of the parent */
+}
+
+.Speed {
+  flex: 1; /* Each component takes up equal space */
+  width: 50%; /* Each component takes up 50% of the container width */
+  padding: 20px; /* Add padding for spacing */
+  box-sizing: border-box; /* Include padding and border in component's total width */ 
+}
+.Temp {
+  flex: 1; /* Each component takes up equal space */
+  width: 50%; /* Each component takes up 50% of the container width */
+  padding: 20px; /* Add padding for spacing */
+  box-sizing: border-box; /* Include padding and border in component's total width */
+}
+
